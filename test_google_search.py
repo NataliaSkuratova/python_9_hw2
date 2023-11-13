@@ -4,8 +4,8 @@ import pytest
 
 @pytest.fixture
 def browser_configs():
-    browser.config.window_width = 400
-    browser.config.window_height = 667
+    browser.config.window_width = 1920
+    browser.config.window_height = 1080
     yield
     browser.quit()
 
